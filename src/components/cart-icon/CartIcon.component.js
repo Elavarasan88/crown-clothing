@@ -4,7 +4,7 @@ import { ReactComponent as ShoppingIcon} from '../../assets/shopping-bag.svg'
 import { CartDropdownContext } from '../../context/CartDropdown.context'
 
 
-const CartIon = () =>{
+const CartIcon = () =>{
     const cartToggle = () => setIsCartOpen(!isCartOpen);
     
     const {isCartOpen,setIsCartOpen,cartCount } = useContext(CartDropdownContext)
@@ -16,4 +16,4 @@ const CartIon = () =>{
     )
 }
 
-export default CartIon
+export default CartIcon
